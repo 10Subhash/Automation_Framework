@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Login">
+    <parameter name="browser" value="firefox"></parameter>
+    <parameter name="url" value="https://practicetestautomation.com/practice-test-login/"></parameter>
+    <parameter name="username" value="student"></parameter>
+    <parameter name="password" value="Password123"></parameter>
+    <test name="Regression">
+        <classes>
+            <class name="Login_Test"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
